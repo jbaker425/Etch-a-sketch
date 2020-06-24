@@ -1,0 +1,31 @@
+body {
+    background-color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#bd1{
+    text-align: center;
+}
+
+#clear{
+    font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 60px);
+    height: 960px;
+    width: 960px;
+    margin: auto;
+}
+
+.grid-item {
+    height: 60px;
+    width: 60px;
+    background-color: lightgray;
+    text-align: center;  
+}
